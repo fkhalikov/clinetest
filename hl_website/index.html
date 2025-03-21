@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HL Funds</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>HL Funds</h1>
+    <table id="funds-table">
+        <thead>
+            <tr>
+                <th>SEDOL</th>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Annual Charge (%)</th>
+                <th>Fund Size (M)</th>
+                <th>1Y Performance (%)</th>
+                <th>Yield (%)</th>
+                <th>Bid Price</th>
+                <th>Offer Price</th>
+                <th>KIID URL</th>
+                <th>Updated</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+    <div id="controls">
+        <input type="text" id="filter-input" placeholder="Filter by name or SEDOL">
+        <select id="order-select">
+            <option value="fund_name">Name</option>
+            <option value="company_name">Company</option>
+            <option value="annual_charge">Annual Charge</option>
+            <option value="fund_size">Fund Size</option>
+            <option value="perf12m">1Y Performance</option>
+            <option value="yield">Yield</option>
+            <option value="bid_price">Bid Price</option>
+            <option value="offer_price">Offer Price</option>
+            <option value="updated">Updated</option>
+        </select>
+        <button id="sort-button">Sort</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,587 @@
+2025-03-21 21:00:25,386 [INFO] Requesting page 1 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 0, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:00:25,388 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:00:25,751 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=0&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 4807
+2025-03-21 21:00:25,751 [INFO] Status Code: 200
+2025-03-21 21:00:25,752 [DEBUG] Response snippet: {"Results":[{"sedol":"B2PB2B6","citicode":"BFB8","full_description":"7IM AAP Adventurous (Class C)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Seven Investment Managemen
+2025-03-21 21:00:25,752 [INFO] Total results: 4045
+2025-03-21 21:00:26,842 [INFO] Scraped 20 funds so far...
+2025-03-21 21:00:26,842 [DEBUG] Sleeping for 2.29 seconds
+2025-03-21 21:00:29,132 [INFO] Requesting page 2 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 20, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:00:29,133 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:00:29,581 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=20&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:00:29,594 [INFO] Status Code: 200
+2025-03-21 21:00:29,594 [DEBUG] Response snippet: {"Results":[{"sedol":"BMDPC32","citicode":"R2FW","full_description":"7IM Pathbuilder 2 (Class C)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Seven Investment Management 
+2025-03-21 21:00:30,666 [INFO] Scraped 40 funds so far...
+2025-03-21 21:00:30,666 [DEBUG] Sleeping for 2.62 seconds
+2025-03-21 21:00:33,291 [INFO] Requesting page 3 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 40, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:00:33,291 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:00:33,677 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=40&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:00:33,777 [INFO] Status Code: 200
+2025-03-21 21:00:33,778 [DEBUG] Response snippet: {"Results":[{"sedol":"B1C4277","citicode":"GNOP","full_description":"abrdn Diversified Growth &  Income (I)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"abrdn Diversified
+2025-03-21 21:00:34,892 [INFO] Scraped 60 funds so far...
+2025-03-21 21:00:34,892 [DEBUG] Sleeping for 2.56 seconds
+2025-03-21 21:00:37,448 [INFO] Requesting page 4 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 60, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:00:37,449 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:00:37,889 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=60&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:00:37,904 [INFO] Status Code: 200
+2025-03-21 21:00:37,904 [DEBUG] Response snippet: {"Results":[{"sedol":"BYMMJD7","citicode":"MS7R","full_description":"abrdn Europe ex UK Smaller Companies (I)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"abrdn Europe ex
+2025-03-21 21:00:38,980 [INFO] Scraped 80 funds so far...
+2025-03-21 21:00:38,980 [DEBUG] Sleeping for 2.70 seconds
+2025-03-21 21:00:41,682 [INFO] Requesting page 5 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 80, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:00:41,683 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:00:42,102 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=80&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:00:42,119 [INFO] Status Code: 200
+2025-03-21 21:00:42,119 [DEBUG] Response snippet: {"Results":[{"sedol":"B0LD3Y2","citicode":"TP04","full_description":"abrdn Global Real Estate (I)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"abrdn Global Real Estate (I
+2025-03-21 21:00:43,186 [INFO] Scraped 100 funds so far...
+2025-03-21 21:00:43,186 [DEBUG] Sleeping for 1.80 seconds
+2025-03-21 21:00:44,984 [INFO] Requesting page 6 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 100, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:00:44,985 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:00:45,468 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=100&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:00:45,485 [INFO] Status Code: 200
+2025-03-21 21:00:45,485 [DEBUG] Response snippet: {"Results":[{"sedol":"BHZCQT0","citicode":"Q1V1","full_description":"abrdn MyFolio Index III (B)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"abrdn MyFolio Index III (B)"
+2025-03-21 21:00:46,532 [INFO] Scraped 120 funds so far...
+2025-03-21 21:00:46,533 [DEBUG] Sleeping for 1.83 seconds
+2025-03-21 21:00:48,361 [INFO] Requesting page 7 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 120, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:00:48,362 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:00:48,989 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=120&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:00:49,003 [INFO] Status Code: 200
+2025-03-21 21:00:49,004 [DEBUG] Response snippet: {"Results":[{"sedol":"B55L0T1","citicode":"KRI3","full_description":"abrdn MyFolio Multi-Manager II (I)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"abrdn MyFolio Multi-M
+2025-03-21 21:00:50,071 [INFO] Scraped 140 funds so far...
+2025-03-21 21:00:50,071 [DEBUG] Sleeping for 1.37 seconds
+2025-03-21 21:00:51,446 [INFO] Requesting page 8 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 140, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:00:51,447 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:00:52,099 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=140&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 6762
+2025-03-21 21:00:52,100 [INFO] Status Code: 200
+2025-03-21 21:00:52,100 [DEBUG] Response snippet: {"Results":[{"sedol":"B7884X5","citicode":"GWRK","full_description":"abrdn SICAV I Emerging Markets Equity (X)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"abrdn SICAV I 
+2025-03-21 21:00:53,165 [INFO] Scraped 160 funds so far...
+2025-03-21 21:00:53,165 [DEBUG] Sleeping for 2.06 seconds
+2025-03-21 21:00:55,226 [INFO] Requesting page 9 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 160, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:00:55,227 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:00:56,524 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=160&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 7031
+2025-03-21 21:00:56,533 [INFO] Status Code: 200
+2025-03-21 21:00:56,533 [DEBUG] Response snippet: {"Results":[{"sedol":"BWK2764","citicode":"MGXT","full_description":"abrdn Sterling Inflation-Linked Bond (I)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"abrdn Sterling 
+2025-03-21 21:00:57,618 [INFO] Scraped 180 funds so far...
+2025-03-21 21:00:57,618 [DEBUG] Sleeping for 2.85 seconds
+2025-03-21 21:01:00,466 [INFO] Requesting page 10 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 180, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:01:00,467 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:01:00,814 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=180&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:01:00,848 [INFO] Status Code: 200
+2025-03-21 21:01:00,848 [DEBUG] Response snippet: {"Results":[{"sedol":"BP8YY39","citicode":"LN1Z","full_description":"abrdn UK Real Estate Feeder (I)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"abrdn UK Real Estate Fee
+2025-03-21 21:01:01,919 [INFO] Scraped 200 funds so far...
+2025-03-21 21:01:01,919 [DEBUG] Sleeping for 2.95 seconds
+2025-03-21 21:01:04,867 [INFO] Requesting page 11 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 200, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:01:04,868 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:01:05,204 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=200&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:01:05,221 [INFO] Status Code: 200
+2025-03-21 21:01:05,221 [DEBUG] Response snippet: {"Results":[{"sedol":"BF5SW30","citicode":"JRQS","full_description":"Aegon Global Equity Income (Class C)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Aegon Asset Managem
+2025-03-21 21:01:06,288 [INFO] Scraped 220 funds so far...
+2025-03-21 21:01:06,288 [DEBUG] Sleeping for 1.88 seconds
+2025-03-21 21:01:08,174 [INFO] Requesting page 12 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 220, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:01:08,175 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:01:08,751 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=220&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:01:08,770 [INFO] Status Code: 200
+2025-03-21 21:01:08,770 [DEBUG] Response snippet: {"Results":[{"sedol":"B85LPZ3","citicode":"NIUR","full_description":"Algebris Financial Credit (Class I)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Algebris Investments
+2025-03-21 21:01:09,872 [INFO] Scraped 240 funds so far...
+2025-03-21 21:01:09,872 [DEBUG] Sleeping for 2.83 seconds
+2025-03-21 21:01:12,706 [INFO] Requesting page 13 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 240, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:01:12,706 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:01:13,073 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=240&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:01:13,086 [INFO] Status Code: 200
+2025-03-21 21:01:13,086 [DEBUG] Response snippet: {"Results":[{"sedol":"B7V78Y8","citicode":"G0ZL","full_description":"Allianz RiskMaster Moderate Multi Asset (Class C)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Allian
+2025-03-21 21:01:14,211 [INFO] Scraped 260 funds so far...
+2025-03-21 21:01:14,212 [DEBUG] Sleeping for 1.36 seconds
+2025-03-21 21:01:15,568 [INFO] Requesting page 14 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 260, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:01:15,569 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:01:16,558 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=260&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 5867
+2025-03-21 21:01:16,558 [INFO] Status Code: 200
+2025-03-21 21:01:16,559 [DEBUG] Response snippet: {"Results":[{"sedol":"BJK1298","citicode":"O20E","full_description":"ARC TIME Social Impact Property Gross (Class A)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"TIME Inv
+2025-03-21 21:01:17,639 [INFO] Scraped 280 funds so far...
+2025-03-21 21:01:17,639 [DEBUG] Sleeping for 1.38 seconds
+2025-03-21 21:01:19,019 [INFO] Requesting page 15 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 280, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:01:19,020 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:01:20,057 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=280&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 5554
+2025-03-21 21:01:20,058 [INFO] Status Code: 200
+2025-03-21 21:01:20,058 [DEBUG] Response snippet: {"Results":[{"sedol":"B75F9Z6","citicode":"10ED","full_description":"Artemis Monthly Distribution (Class I)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Artemis Monthly D
+2025-03-21 21:01:21,165 [INFO] Scraped 300 funds so far...
+2025-03-21 21:01:21,165 [DEBUG] Sleeping for 1.72 seconds
+2025-03-21 21:01:22,883 [INFO] Requesting page 16 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 300, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:01:22,884 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:01:24,188 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=300&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 5799
+2025-03-21 21:01:24,198 [INFO] Status Code: 200
+2025-03-21 21:01:24,198 [DEBUG] Response snippet: {"Results":[{"sedol":"B2PLJL5","citicode":"KVH2","full_description":"Artemis UK Smaller Companies (Class I)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Artemis UK Smalle
+2025-03-21 21:01:25,352 [INFO] Scraped 320 funds so far...
+2025-03-21 21:01:25,352 [DEBUG] Sleeping for 1.85 seconds
+2025-03-21 21:01:27,204 [INFO] Requesting page 17 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 320, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:01:27,205 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:01:27,801 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=320&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 7789
+2025-03-21 21:01:27,802 [INFO] Status Code: 200
+2025-03-21 21:01:27,802 [DEBUG] Response snippet: {"Results":[{"sedol":"BYW9P18","citicode":"OYRS","full_description":"Ashmore Emerging Market Short Duration (Z)","ismininv_monthly":"0.00","reg_saver":"0","closed_fund":"0","fund_name":"Ashmore Invest
+2025-03-21 21:01:28,905 [INFO] Scraped 340 funds so far...
+2025-03-21 21:01:28,906 [DEBUG] Sleeping for 1.41 seconds
+2025-03-21 21:01:30,319 [INFO] Requesting page 18 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 340, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:01:30,320 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:01:30,961 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=340&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 7438
+2025-03-21 21:01:30,964 [INFO] Status Code: 200
+2025-03-21 21:01:30,964 [DEBUG] Response snippet: {"Results":[{"sedol":"B1N94Q4","citicode":"W998","full_description":"Aviva Multi Manager 40-85% Shares (Class 2)","ismininv_monthly":"0.00","reg_saver":"1","closed_fund":"0","fund_name":"Aviva Investo
+2025-03-21 21:01:32,076 [INFO] Scraped 360 funds so far...
+2025-03-21 21:01:32,076 [DEBUG] Sleeping for 2.16 seconds
+2025-03-21 21:01:34,235 [INFO] Requesting page 19 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 360, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:01:34,236 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:01:35,672 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=360&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 6366
+2025-03-21 21:01:35,679 [INFO] Status Code: 200
+2025-03-21 21:01:35,679 [DEBUG] Response snippet: {"Results":[{"sedol":"BMDGWF7","citicode":"HR0I","full_description":"Aviva Sust Steward International Eq Fdr (Class 2)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Aviva 
+2025-03-21 21:01:36,793 [INFO] Scraped 380 funds so far...
+2025-03-21 21:01:36,794 [DEBUG] Sleeping for 2.45 seconds
+2025-03-21 21:01:39,245 [INFO] Requesting page 20 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 380, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:01:39,246 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:01:39,833 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=380&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:01:39,846 [INFO] Status Code: 200
+2025-03-21 21:01:39,846 [DEBUG] Response snippet: {"Results":[{"sedol":"B784NS1","citicode":"11VD","full_description":"AXA Framlington Biotech (Class Z)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"AXA Framlington Biotec
+2025-03-21 21:01:40,926 [INFO] Scraped 400 funds so far...
+2025-03-21 21:01:40,926 [DEBUG] Sleeping for 2.97 seconds
+2025-03-21 21:01:43,902 [INFO] Requesting page 21 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 400, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:01:43,903 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:01:44,385 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=400&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:01:44,403 [INFO] Status Code: 200
+2025-03-21 21:01:44,403 [DEBUG] Response snippet: {"Results":[{"sedol":"0830898","citicode":"AF42","full_description":"AXA Global Distribution (Class Z)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"AXA Global Distributio
+2025-03-21 21:01:45,438 [INFO] Scraped 420 funds so far...
+2025-03-21 21:01:45,438 [DEBUG] Sleeping for 1.91 seconds
+2025-03-21 21:01:47,350 [INFO] Requesting page 22 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 420, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:01:47,351 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:01:47,796 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=420&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:01:47,813 [INFO] Status Code: 200
+2025-03-21 21:01:47,813 [DEBUG] Response snippet: {"Results":[{"sedol":"B59VLT4","citicode":"IZN9","full_description":"AXA US Short Duration High Yield (Z Gross)","ismininv_monthly":"0.00","reg_saver":"0","closed_fund":"0","fund_name":"AXA US Short D
+2025-03-21 21:01:48,844 [INFO] Scraped 440 funds so far...
+2025-03-21 21:01:48,845 [DEBUG] Sleeping for 1.61 seconds
+2025-03-21 21:01:50,460 [INFO] Requesting page 23 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 440, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:01:50,460 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:01:50,956 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=440&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:01:50,969 [INFO] Status Code: 200
+2025-03-21 21:01:50,969 [DEBUG] Response snippet: {"Results":[{"sedol":"BMZQ192","citicode":"VZ6O","full_description":"Baillie Gifford Defensive Growth (Class B)","ismininv_monthly":"0.00","reg_saver":"0","closed_fund":"0","fund_name":"Baillie Giffor
+2025-03-21 21:01:51,945 [INFO] Scraped 460 funds so far...
+2025-03-21 21:01:51,945 [DEBUG] Sleeping for 1.99 seconds
+2025-03-21 21:01:53,937 [INFO] Requesting page 24 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 460, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:01:53,937 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:01:54,393 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=460&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 5546
+2025-03-21 21:01:54,394 [INFO] Status Code: 200
+2025-03-21 21:01:54,394 [DEBUG] Response snippet: {"Results":[{"sedol":"3081671","citicode":"BE79","full_description":"Baillie Gifford High Yield Bond (Class B)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Baillie Giffor
+2025-03-21 21:01:55,497 [INFO] Scraped 480 funds so far...
+2025-03-21 21:01:55,497 [DEBUG] Sleeping for 1.34 seconds
+2025-03-21 21:01:56,834 [INFO] Requesting page 25 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 480, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:01:56,835 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:01:57,722 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=480&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 6994
+2025-03-21 21:01:57,724 [INFO] Status Code: 200
+2025-03-21 21:01:57,724 [DEBUG] Response snippet: {"Results":[{"sedol":"0606323","citicode":"BE80","full_description":"Baillie Gifford Pacific (Class B)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Baillie Gifford Pacifi
+2025-03-21 21:01:58,793 [INFO] Scraped 500 funds so far...
+2025-03-21 21:01:58,794 [DEBUG] Sleeping for 2.58 seconds
+2025-03-21 21:02:01,379 [INFO] Requesting page 26 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 500, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:02:01,380 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:02:01,853 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=500&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 6162
+2025-03-21 21:02:01,853 [INFO] Status Code: 200
+2025-03-21 21:02:01,854 [DEBUG] Response snippet: {"Results":[{"sedol":"B51B932","citicode":"I1IH","full_description":"Barclays Global Core (Class R)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Barclays Asset Management
+2025-03-21 21:02:02,901 [INFO] Scraped 520 funds so far...
+2025-03-21 21:02:02,901 [DEBUG] Sleeping for 1.41 seconds
+2025-03-21 21:02:04,311 [INFO] Requesting page 27 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 520, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:02:04,312 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:02:04,963 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=520&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:02:04,994 [INFO] Status Code: 200
+2025-03-21 21:02:04,994 [DEBUG] Response snippet: {"Results":[{"sedol":"BD93ZZ0","citicode":"O9DC","full_description":"Barclays Multi-Asset Growth (Class R)","ismininv_monthly":"0.00","reg_saver":"0","closed_fund":"0","fund_name":"Barclays Asset Mana
+2025-03-21 21:02:06,005 [INFO] Scraped 540 funds so far...
+2025-03-21 21:02:06,005 [DEBUG] Sleeping for 2.97 seconds
+2025-03-21 21:02:08,976 [INFO] Requesting page 28 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 540, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:02:08,977 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:02:09,317 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=540&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:02:09,330 [INFO] Status Code: 200
+2025-03-21 21:02:09,330 [DEBUG] Response snippet: {"Results":[{"sedol":"B9M3QP6","citicode":"J6JB","full_description":"Barings Eastern Trust (Class I)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Barings Eastern Trust (C
+2025-03-21 21:02:10,423 [INFO] Scraped 560 funds so far...
+2025-03-21 21:02:10,423 [DEBUG] Sleeping for 2.19 seconds
+2025-03-21 21:02:12,614 [INFO] Requesting page 29 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 560, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:02:12,615 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:02:12,990 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=560&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:02:13,040 [INFO] Status Code: 200
+2025-03-21 21:02:13,040 [DEBUG] Response snippet: {"Results":[{"sedol":"B42Y6S7","citicode":"QBHH","full_description":"Barings Global Senior Secured Bond (Class I)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Barings Glo
+2025-03-21 21:02:14,228 [INFO] Scraped 580 funds so far...
+2025-03-21 21:02:14,229 [DEBUG] Sleeping for 1.21 seconds
+2025-03-21 21:02:15,437 [INFO] Requesting page 30 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 580, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:02:15,437 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:02:15,955 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=580&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:02:15,956 [INFO] Status Code: 200
+2025-03-21 21:02:15,956 [DEBUG] Response snippet: {"Results":[{"sedol":"BP25SS1","citicode":"FLHP","full_description":"BlackRock Asian Growth Leaders (D2 GBP)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"BlackRock Asian 
+2025-03-21 21:02:17,109 [INFO] Scraped 600 funds so far...
+2025-03-21 21:02:17,110 [DEBUG] Sleeping for 2.43 seconds
+2025-03-21 21:02:19,541 [INFO] Requesting page 31 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 600, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:02:19,542 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:02:20,138 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=600&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:02:20,142 [INFO] Status Code: 200
+2025-03-21 21:02:20,142 [DEBUG] Response snippet: {"Results":[{"sedol":"B7W6H25","citicode":"GFYY","full_description":"BlackRock Consensus 35 (Class D)","ismininv_monthly":"50.00","reg_saver":"1","closed_fund":"0","fund_name":"BlackRock Consensus 35 
+2025-03-21 21:02:21,350 [INFO] Scraped 620 funds so far...
+2025-03-21 21:02:21,350 [DEBUG] Sleeping for 1.94 seconds
+2025-03-21 21:02:23,294 [INFO] Requesting page 32 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 620, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:02:23,294 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:02:23,951 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=620&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:02:23,955 [INFO] Status Code: 200
+2025-03-21 21:02:23,955 [DEBUG] Response snippet: {"Results":[{"sedol":"BKWCY01","citicode":"QOR1","full_description":"BlackRock Emerging Markets Equity Income (D5G GBP)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Black
+2025-03-21 21:02:25,014 [INFO] Scraped 640 funds so far...
+2025-03-21 21:02:25,015 [DEBUG] Sleeping for 1.63 seconds
+2025-03-21 21:02:26,641 [INFO] Requesting page 33 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 640, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:02:26,642 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:02:27,220 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=640&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 6905
+2025-03-21 21:02:27,221 [INFO] Status Code: 200
+2025-03-21 21:02:27,221 [DEBUG] Response snippet: {"Results":[{"sedol":"B8DRW63","citicode":"F2IH","full_description":"BlackRock Global Allocation (Hedged D2 GBP)","ismininv_monthly":"25.00","reg_saver":"0","closed_fund":"0","fund_name":"BlackRock Gl
+2025-03-21 21:02:28,280 [INFO] Scraped 660 funds so far...
+2025-03-21 21:02:28,281 [DEBUG] Sleeping for 2.36 seconds
+2025-03-21 21:02:30,642 [INFO] Requesting page 34 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 660, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:02:30,643 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:02:31,254 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=660&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 6465
+2025-03-21 21:02:31,255 [INFO] Status Code: 200
+2025-03-21 21:02:31,255 [DEBUG] Response snippet: {"Results":[{"sedol":"B3Y9G49","citicode":"A1AG","full_description":"BlackRock Global World Energy (D4 GBP)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"BlackRock World E
+2025-03-21 21:02:32,358 [INFO] Scraped 680 funds so far...
+2025-03-21 21:02:32,358 [DEBUG] Sleeping for 1.77 seconds
+2025-03-21 21:02:34,129 [INFO] Requesting page 35 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 680, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:02:34,129 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:02:34,527 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=680&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 7781
+2025-03-21 21:02:34,528 [INFO] Status Code: 200
+2025-03-21 21:02:34,528 [DEBUG] Response snippet: {"Results":[{"sedol":"BRTCQJ6","citicode":"ALYOK","full_description":"BlackRock LifePath Target Date Fund 2050 (Class D)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Blac
+2025-03-21 21:02:35,568 [INFO] Scraped 700 funds so far...
+2025-03-21 21:02:35,568 [DEBUG] Sleeping for 2.26 seconds
+2025-03-21 21:02:37,824 [INFO] Requesting page 36 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 700, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:02:37,825 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:02:38,326 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=700&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:02:38,341 [INFO] Status Code: 200
+2025-03-21 21:02:38,341 [DEBUG] Response snippet: {"Results":[{"sedol":"BFBFZ25","citicode":"QD4C","full_description":"BlackRock MyMap 6 (Class D)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"BlackRock MyMap 6 (Class D)"
+2025-03-21 21:02:39,387 [INFO] Scraped 720 funds so far...
+2025-03-21 21:02:39,387 [DEBUG] Sleeping for 2.77 seconds
+2025-03-21 21:02:42,156 [INFO] Requesting page 37 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 720, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:02:42,157 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:02:42,702 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=720&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 5797
+2025-03-21 21:02:42,702 [INFO] Status Code: 200
+2025-03-21 21:02:42,702 [DEBUG] Response snippet: {"Results":[{"sedol":"B5YKQK2","citicode":"K9K8","full_description":"BlackRock UK Fund (Class D)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"BlackRock UK Fund (Class D)"
+2025-03-21 21:02:43,817 [INFO] Scraped 740 funds so far...
+2025-03-21 21:02:43,817 [DEBUG] Sleeping for 2.18 seconds
+2025-03-21 21:02:45,997 [INFO] Requesting page 38 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 740, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:02:45,998 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:02:46,442 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=740&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 5134
+2025-03-21 21:02:46,443 [INFO] Status Code: 200
+2025-03-21 21:02:46,443 [DEBUG] Response snippet: {"Results":[{"sedol":"BJCWQR5","citicode":"P2PM","full_description":"BlueBay Global High Yield ESG (S)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"BlueBay Global High Yi
+2025-03-21 21:02:47,564 [INFO] Scraped 760 funds so far...
+2025-03-21 21:02:47,564 [DEBUG] Sleeping for 2.59 seconds
+2025-03-21 21:02:50,158 [INFO] Requesting page 39 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 760, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:02:50,158 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:02:50,515 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=760&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:02:50,527 [INFO] Status Code: 200
+2025-03-21 21:02:50,527 [DEBUG] Response snippet: {"Results":[{"sedol":"BMYM6D0","citicode":"T7QR","full_description":"BNY Mellon Efficient Global H-Y Beta (W Hdg)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"BNY Mellon 
+2025-03-21 21:02:51,632 [INFO] Scraped 780 funds so far...
+2025-03-21 21:02:51,632 [DEBUG] Sleeping for 1.07 seconds
+2025-03-21 21:02:52,699 [INFO] Requesting page 40 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 780, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:02:52,700 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:02:53,387 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=780&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 6381
+2025-03-21 21:02:53,388 [INFO] Status Code: 200
+2025-03-21 21:02:53,388 [DEBUG] Response snippet: {"Results":[{"sedol":"B83VQG3","citicode":"I8XZ","full_description":"BNY Mellon Global Absolute Return (Class W)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"BNY Mellon G
+2025-03-21 21:02:54,493 [INFO] Scraped 800 funds so far...
+2025-03-21 21:02:54,494 [DEBUG] Sleeping for 2.20 seconds
+2025-03-21 21:02:56,696 [INFO] Requesting page 41 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 800, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:02:56,696 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:02:57,143 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=800&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 6070
+2025-03-21 21:02:57,144 [INFO] Status Code: 200
+2025-03-21 21:02:57,144 [DEBUG] Response snippet: {"Results":[{"sedol":"B84QL39","citicode":"I8YG","full_description":"BNY Mellon Global Multi Strategy (Class W)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"BNY Mellon Gl
+2025-03-21 21:02:58,259 [INFO] Scraped 820 funds so far...
+2025-03-21 21:02:58,259 [DEBUG] Sleeping for 2.15 seconds
+2025-03-21 21:03:00,413 [INFO] Requesting page 42 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 820, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:03:00,413 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:03:00,890 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=820&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:03:00,915 [INFO] Status Code: 200
+2025-03-21 21:03:00,915 [DEBUG] Response snippet: {"Results":[{"sedol":"B83R9Z1","citicode":"GQ4Q","full_description":"BNY Mellon Newton Global Opportunities (Class W)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"BNY Mel
+2025-03-21 21:03:02,031 [INFO] Scraped 840 funds so far...
+2025-03-21 21:03:02,031 [DEBUG] Sleeping for 1.27 seconds
+2025-03-21 21:03:03,301 [INFO] Requesting page 43 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 840, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:03:03,302 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:03:03,835 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=840&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:03:03,847 [INFO] Status Code: 200
+2025-03-21 21:03:03,847 [DEBUG] Response snippet: {"Results":[{"sedol":"BD9MKL8","citicode":"R0A8","full_description":"Brown Advisory Global Leaders (Class B GBP)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Brown Adviso
+2025-03-21 21:03:04,910 [INFO] Scraped 860 funds so far...
+2025-03-21 21:03:04,910 [DEBUG] Sleeping for 2.24 seconds
+2025-03-21 21:03:07,151 [INFO] Requesting page 44 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 860, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:03:07,152 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:03:07,643 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=860&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:03:07,662 [INFO] Status Code: 200
+2025-03-21 21:03:07,663 [DEBUG] Response snippet: {"Results":[{"sedol":"BBH82Q3","citicode":"FANA","full_description":"Capital Group Emerging Markets Debt (Z GBP)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Capital Grou
+2025-03-21 21:03:08,710 [INFO] Scraped 880 funds so far...
+2025-03-21 21:03:08,710 [DEBUG] Sleeping for 1.58 seconds
+2025-03-21 21:03:10,288 [INFO] Requesting page 45 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 880, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:03:10,289 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:03:10,777 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=880&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:03:10,793 [INFO] Status Code: 200
+2025-03-21 21:03:10,793 [DEBUG] Response snippet: {"Results":[{"sedol":"B7VH3C1","citicode":"GVMX","full_description":"Capital Group Global High Income Opps (Class Z)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Capital 
+2025-03-21 21:03:11,855 [INFO] Scraped 900 funds so far...
+2025-03-21 21:03:11,855 [DEBUG] Sleeping for 1.10 seconds
+2025-03-21 21:03:12,951 [INFO] Requesting page 46 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 900, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:03:12,952 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:03:13,355 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=900&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 5847
+2025-03-21 21:03:13,356 [INFO] Status Code: 200
+2025-03-21 21:03:13,356 [DEBUG] Response snippet: {"Results":[{"sedol":"BPCJ6S9","citicode":"UGLO","full_description":"Capital Group UK Global High Income Opportunities","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Capita
+2025-03-21 21:03:14,444 [INFO] Scraped 920 funds so far...
+2025-03-21 21:03:14,445 [DEBUG] Sleeping for 2.16 seconds
+2025-03-21 21:03:16,602 [INFO] Requesting page 47 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 920, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:03:16,603 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:03:17,489 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=920&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:03:17,504 [INFO] Status Code: 200
+2025-03-21 21:03:17,505 [DEBUG] Response snippet: {"Results":[{"sedol":"BD5DLV2","citicode":"KQSI","full_description":"Castellain Income Fund","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Castellain Capital Income Fund","
+2025-03-21 21:03:18,554 [INFO] Scraped 940 funds so far...
+2025-03-21 21:03:18,554 [DEBUG] Sleeping for 2.57 seconds
+2025-03-21 21:03:21,130 [INFO] Requesting page 48 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 940, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:03:21,130 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:03:21,569 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=940&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:03:21,582 [INFO] Status Code: 200
+2025-03-21 21:03:21,583 [DEBUG] Response snippet: {"Results":[{"sedol":"BS85VT8","citicode":"AXV8O","full_description":"CG UK Index-Linked Bond (Class G)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"CG Asset Management U
+2025-03-21 21:03:22,686 [INFO] Scraped 960 funds so far...
+2025-03-21 21:03:22,687 [DEBUG] Sleeping for 2.22 seconds
+2025-03-21 21:03:24,911 [INFO] Requesting page 49 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 960, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:03:24,911 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:03:25,351 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=960&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:03:25,365 [INFO] Status Code: 200
+2025-03-21 21:03:25,365 [DEBUG] Response snippet: {"Results":[{"sedol":"B815Z37","citicode":"GOXL","full_description":"Close Managed Growth (Class X)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Close Asset Management (U
+2025-03-21 21:03:26,438 [INFO] Scraped 980 funds so far...
+2025-03-21 21:03:26,438 [DEBUG] Sleeping for 1.55 seconds
+2025-03-21 21:03:27,984 [INFO] Requesting page 50 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 980, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:03:27,985 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:03:28,510 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=980&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:03:28,527 [INFO] Status Code: 200
+2025-03-21 21:03:28,527 [DEBUG] Response snippet: {"Results":[{"sedol":"BK5X4B2","citicode":"QYU0","full_description":"Comgest Growth Europe ex UK (Class SU)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Comgest Asset Man
+2025-03-21 21:03:29,609 [INFO] Scraped 1000 funds so far...
+2025-03-21 21:03:29,610 [DEBUG] Sleeping for 1.66 seconds
+2025-03-21 21:03:31,274 [INFO] Requesting page 51 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1000, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:03:31,275 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:03:31,728 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1000&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:03:31,755 [INFO] Status Code: 200
+2025-03-21 21:03:31,756 [DEBUG] Response snippet: {"Results":[{"sedol":"B6WD1G1","citicode":"G7CE","full_description":"CT American (Class Z)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Columbia Threadneedle American (Cl
+2025-03-21 21:03:32,832 [INFO] Scraped 1020 funds so far...
+2025-03-21 21:03:32,832 [DEBUG] Sleeping for 2.12 seconds
+2025-03-21 21:03:34,954 [INFO] Requesting page 52 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1020, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:03:34,956 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:03:35,650 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1020&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 7073
+2025-03-21 21:03:35,652 [INFO] Status Code: 200
+2025-03-21 21:03:35,652 [DEBUG] Response snippet: {"Results":[{"sedol":"B98WQ46","citicode":"J6GZ","full_description":"CT European Select (Class Z)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Columbia Threadneedle Europ
+2025-03-21 21:03:36,844 [INFO] Scraped 1040 funds so far...
+2025-03-21 21:03:36,844 [DEBUG] Sleeping for 2.99 seconds
+2025-03-21 21:03:39,834 [INFO] Requesting page 53 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1040, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:03:39,835 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:03:40,390 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1040&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:03:40,405 [INFO] Status Code: 200
+2025-03-21 21:03:40,405 [DEBUG] Response snippet: {"Results":[{"sedol":"BJZ2F86","citicode":"K6GE","full_description":"CT Global Select (Class Z)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Columbia Threadneedle Global 
+2025-03-21 21:03:41,491 [INFO] Scraped 1060 funds so far...
+2025-03-21 21:03:41,492 [DEBUG] Sleeping for 2.25 seconds
+2025-03-21 21:03:43,742 [INFO] Requesting page 54 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1060, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:03:43,742 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:03:44,081 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1060&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:03:44,189 [INFO] Status Code: 200
+2025-03-21 21:03:44,190 [DEBUG] Response snippet: {"Results":[{"sedol":"B7MXZP5","citicode":"GRGT","full_description":"CT MM Lifestyle 5 Class B","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Columbia Threadneedle MM Lifes
+2025-03-21 21:03:45,255 [INFO] Scraped 1080 funds so far...
+2025-03-21 21:03:45,255 [DEBUG] Sleeping for 2.79 seconds
+2025-03-21 21:03:48,042 [INFO] Requesting page 55 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1080, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:03:48,043 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:03:48,394 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1080&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:03:48,410 [INFO] Status Code: 200
+2025-03-21 21:03:48,410 [DEBUG] Response snippet: {"Results":[{"sedol":"BQWJ879","citicode":"M3IK","full_description":"CT Property Growth & Income (Class I)","ismininv_monthly":"0.00","reg_saver":"0","closed_fund":"0","fund_name":"Columbia Threadneed
+2025-03-21 21:03:49,490 [INFO] Scraped 1100 funds so far...
+2025-03-21 21:03:49,490 [DEBUG] Sleeping for 2.56 seconds
+2025-03-21 21:03:52,046 [INFO] Requesting page 56 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1100, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:03:52,046 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:03:52,527 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1100&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:03:52,544 [INFO] Status Code: 200
+2025-03-21 21:03:52,544 [DEBUG] Response snippet: {"Results":[{"sedol":"BKV4464","citicode":"QQQ6","full_description":"CT Sustainable Universal MAP Cautious (Class C)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Columbia
+2025-03-21 21:03:53,664 [INFO] Scraped 1120 funds so far...
+2025-03-21 21:03:53,664 [DEBUG] Sleeping for 2.63 seconds
+2025-03-21 21:03:56,292 [INFO] Requesting page 57 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1120, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:03:56,292 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:03:56,644 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1120&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:03:56,658 [INFO] Status Code: 200
+2025-03-21 21:03:56,659 [DEBUG] Response snippet: {"Results":[{"sedol":"BQ3G0Z1","citicode":"KSQO","full_description":"CT UK Property Authorised Trust (Class I)","ismininv_monthly":"0.00","reg_saver":"0","closed_fund":"0","fund_name":"Columbia Thread
+2025-03-21 21:03:57,729 [INFO] Scraped 1140 funds so far...
+2025-03-21 21:03:57,729 [DEBUG] Sleeping for 2.66 seconds
+2025-03-21 21:04:00,386 [INFO] Requesting page 58 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1140, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:04:00,387 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:04:00,938 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1140&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 6626
+2025-03-21 21:04:00,939 [INFO] Status Code: 200
+2025-03-21 21:04:00,939 [DEBUG] Response snippet: {"Results":[{"sedol":"0844833","citicode":"FR37","full_description":"EdenTree Resp & Sust European Equity (B)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"EdenTree Resp &
+2025-03-21 21:04:02,056 [INFO] Scraped 1160 funds so far...
+2025-03-21 21:04:02,056 [DEBUG] Sleeping for 2.20 seconds
+2025-03-21 21:04:04,253 [INFO] Requesting page 59 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1160, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:04:04,253 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:04:04,962 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1160&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:04:04,980 [INFO] Status Code: 200
+2025-03-21 21:04:04,981 [DEBUG] Response snippet: {"Results":[{"sedol":"BJGTL33","citicode":"QB4H","full_description":"Emerging Markets Discovery Equity (Class Qd GBP 9)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"T. Ro
+2025-03-21 21:04:06,102 [INFO] Scraped 1180 funds so far...
+2025-03-21 21:04:06,102 [DEBUG] Sleeping for 2.43 seconds
+2025-03-21 21:04:08,532 [INFO] Requesting page 60 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1180, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:04:08,533 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:04:09,052 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1180&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:04:09,068 [INFO] Status Code: 200
+2025-03-21 21:04:09,068 [DEBUG] Response snippet: {"Results":[{"sedol":"BP69X62","citicode":"X03O","full_description":"Federated Hermes GEMS ex China Equity (M)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Federated Herm
+2025-03-21 21:04:10,168 [INFO] Scraped 1200 funds so far...
+2025-03-21 21:04:10,168 [DEBUG] Sleeping for 2.89 seconds
+2025-03-21 21:04:13,063 [INFO] Requesting page 61 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1200, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:04:13,064 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:04:13,454 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1200&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:04:13,467 [INFO] Status Code: 200
+2025-03-21 21:04:13,467 [DEBUG] Response snippet: {"Results":[{"sedol":"BJK4B12","citicode":"Q1UK","full_description":"Fidelity American Growth (Class W Hedged)","ismininv_monthly":"0.00","reg_saver":"0","closed_fund":"0","fund_name":"Fidelity Americ
+2025-03-21 21:04:14,544 [INFO] Scraped 1220 funds so far...
+2025-03-21 21:04:14,545 [DEBUG] Sleeping for 2.79 seconds
+2025-03-21 21:04:17,335 [INFO] Requesting page 62 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1220, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:04:17,336 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:04:17,871 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1220&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:04:17,930 [INFO] Status Code: 200
+2025-03-21 21:04:17,931 [DEBUG] Response snippet: {"Results":[{"sedol":"BDCG040","citicode":"C13I","full_description":"Fidelity Emerging Markets (Offshore W GBP)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Fidelity Emer
+2025-03-21 21:04:18,991 [INFO] Scraped 1240 funds so far...
+2025-03-21 21:04:18,991 [DEBUG] Sleeping for 2.07 seconds
+2025-03-21 21:04:21,059 [INFO] Requesting page 63 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1240, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:04:21,060 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:04:21,535 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1240&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:04:21,548 [INFO] Status Code: 200
+2025-03-21 21:04:21,548 [DEBUG] Response snippet: {"Results":[{"sedol":"BD1NLJ4","citicode":"JQ7K","full_description":"Fidelity Global Enhanced Income (Class Inc)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Fidelity Glo
+2025-03-21 21:04:22,612 [INFO] Scraped 1260 funds so far...
+2025-03-21 21:04:22,612 [DEBUG] Sleeping for 1.96 seconds
+2025-03-21 21:04:24,569 [INFO] Requesting page 64 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1260, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:04:24,570 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:04:25,021 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1260&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:04:25,153 [INFO] Status Code: 200
+2025-03-21 21:04:25,153 [DEBUG] Response snippet: {"Results":[{"sedol":"BHZK8G5","citicode":"K38Y","full_description":"Fidelity Index Pacific ex Japan (Class P)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Fidelity Index
+2025-03-21 21:04:26,236 [INFO] Scraped 1280 funds so far...
+2025-03-21 21:04:26,236 [DEBUG] Sleeping for 1.94 seconds
+2025-03-21 21:04:28,176 [INFO] Requesting page 65 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1280, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:04:28,177 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:04:28,673 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1280&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:04:28,687 [INFO] Status Code: 200
+2025-03-21 21:04:28,687 [DEBUG] Response snippet: {"Results":[{"sedol":"B3Z9PT6","citicode":"GQM7","full_description":"Fidelity MoneyBuilder Corporate Bond (Class W)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Fidelity 
+2025-03-21 21:04:29,761 [INFO] Scraped 1300 funds so far...
+2025-03-21 21:04:29,761 [DEBUG] Sleeping for 2.79 seconds
+2025-03-21 21:04:32,552 [INFO] Requesting page 66 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1300, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:04:32,554 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:04:33,168 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1300&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:04:33,181 [INFO] Status Code: 200
+2025-03-21 21:04:33,181 [DEBUG] Response snippet: {"Results":[{"sedol":"BGM17P6","citicode":"JX2P","full_description":"Fidelity Pre-Retirement Bond (Class W Gross)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Fidelity Pr
+2025-03-21 21:04:34,296 [INFO] Scraped 1320 funds so far...
+2025-03-21 21:04:34,296 [DEBUG] Sleeping for 2.83 seconds
+2025-03-21 21:04:37,130 [INFO] Requesting page 67 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1320, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:04:37,131 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:04:37,724 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1320&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:04:37,739 [INFO] Status Code: 200
+2025-03-21 21:04:37,739 [DEBUG] Response snippet: {"Results":[{"sedol":"BLC9PB7","citicode":"R5SW","full_description":"Fidelity Sustainable Eurozone Equity (Class W)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Fidelity 
+2025-03-21 21:04:38,818 [INFO] Scraped 1340 funds so far...
+2025-03-21 21:04:38,819 [DEBUG] Sleeping for 2.61 seconds
+2025-03-21 21:04:41,428 [INFO] Requesting page 68 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1340, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:04:41,429 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:04:41,883 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1340&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:04:41,895 [INFO] Status Code: 200
+2025-03-21 21:04:41,895 [DEBUG] Response snippet: {"Results":[{"sedol":"BNGFK43","citicode":"T10N","full_description":"Fiera Capital Atlas Global Companies (Class I)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Fiera Cap
+2025-03-21 21:04:42,931 [INFO] Scraped 1360 funds so far...
+2025-03-21 21:04:42,931 [DEBUG] Sleeping for 1.59 seconds
+2025-03-21 21:04:44,524 [INFO] Requesting page 69 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1360, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:04:44,525 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:04:44,885 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1360&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:04:44,904 [INFO] Status Code: 200
+2025-03-21 21:04:44,904 [DEBUG] Response snippet: {"Results":[{"sedol":"BJHQ2K7","citicode":"Q9ZW","full_description":"FP Carmignac Global Bond (A)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Carmignac Group FP Carmigna
+2025-03-21 21:04:45,965 [INFO] Scraped 1380 funds so far...
+2025-03-21 21:04:45,965 [DEBUG] Sleeping for 2.69 seconds
+2025-03-21 21:04:48,659 [INFO] Requesting page 70 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1380, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:04:48,659 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:04:49,184 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1380&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:04:49,193 [INFO] Status Code: 200
+2025-03-21 21:04:49,193 [DEBUG] Response snippet: {"Results":[{"sedol":"B4KHXP4","citicode":"HZP6","full_description":"FP Russell Investments International Growth Assets","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Russe
+2025-03-21 21:04:50,320 [INFO] Scraped 1400 funds so far...
+2025-03-21 21:04:50,320 [DEBUG] Sleeping for 2.94 seconds
+2025-03-21 21:04:53,265 [INFO] Requesting page 71 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1400, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:04:53,266 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:04:53,639 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1400&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:04:53,654 [INFO] Status Code: 200
+2025-03-21 21:04:53,654 [DEBUG] Response snippet: {"Results":[{"sedol":"BWNGXJ8","citicode":"M8LS","full_description":"FSSA Asia Focus","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"First Sentier Investments Asia Focus","a
+2025-03-21 21:04:54,722 [INFO] Scraped 1420 funds so far...
+2025-03-21 21:04:54,723 [DEBUG] Sleeping for 2.75 seconds
+2025-03-21 21:04:57,470 [INFO] Requesting page 72 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1420, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:04:57,471 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:04:58,252 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1420&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 5597
+2025-03-21 21:04:58,253 [INFO] Status Code: 200
+2025-03-21 21:04:58,253 [DEBUG] Response snippet: {"Results":[{"sedol":"BP9LKF3","citicode":"ESOE","full_description":"FTF Martin Currie Gbl Unconstrained (Class W)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Franklin T
+2025-03-21 21:04:59,310 [INFO] Scraped 1440 funds so far...
+2025-03-21 21:04:59,310 [DEBUG] Sleeping for 1.52 seconds
+2025-03-21 21:05:00,832 [INFO] Requesting page 73 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1440, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:05:00,833 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:05:01,588 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1440&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 5839
+2025-03-21 21:05:01,590 [INFO] Status Code: 200
+2025-03-21 21:05:01,591 [DEBUG] Response snippet: {"Results":[{"sedol":"B2Q3KT5","citicode":"IBQB","full_description":"FTGF Brandywine Global Fixed Income (X)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Franklin Templet
+2025-03-21 21:05:02,655 [INFO] Scraped 1460 funds so far...
+2025-03-21 21:05:02,656 [DEBUG] Sleeping for 2.02 seconds
+2025-03-21 21:05:04,677 [INFO] Requesting page 74 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1460, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:05:04,678 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:05:06,272 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1460&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 5988
+2025-03-21 21:05:06,281 [INFO] Status Code: 200
+2025-03-21 21:05:06,281 [DEBUG] Response snippet: {"Results":[{"sedol":"BK6GV86","citicode":"TJNS","full_description":"GA-Courtenay Special Situations (Class R)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Green Ash Part
+2025-03-21 21:05:07,360 [INFO] Scraped 1480 funds so far...
+2025-03-21 21:05:07,360 [DEBUG] Sleeping for 1.83 seconds
+2025-03-21 21:05:09,192 [INFO] Requesting page 75 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1480, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:05:09,193 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:05:09,571 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1480&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:05:09,585 [INFO] Status Code: 200
+2025-03-21 21:05:09,585 [DEBUG] Response snippet: {"Results":[{"sedol":"B8H60G2","citicode":"JE2P","full_description":"GAM Star Global Growth (Z GBP)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"GAM Star Global Growth (Z
+2025-03-21 21:05:10,648 [INFO] Scraped 1500 funds so far...
+2025-03-21 21:05:10,649 [DEBUG] Sleeping for 2.64 seconds
+2025-03-21 21:05:13,293 [INFO] Requesting page 76 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1500, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:05:13,293 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:05:14,073 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1500&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:05:14,084 [INFO] Status Code: 200
+2025-03-21 21:05:14,084 [DEBUG] Response snippet: {"Results":[{"sedol":"BN326R2","citicode":"FKPG","full_description":"GS Europe High Yield Bond Portfolio","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Goldman Sachs Europe
+2025-03-21 21:05:15,133 [INFO] Scraped 1520 funds so far...
+2025-03-21 21:05:15,133 [DEBUG] Sleeping for 2.82 seconds
+2025-03-21 21:05:17,953 [INFO] Requesting page 77 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1520, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:05:17,953 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:05:18,723 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1520&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 5865
+2025-03-21 21:05:18,724 [INFO] Status Code: 200
+2025-03-21 21:05:18,725 [DEBUG] Response snippet: {"Results":[{"sedol":"BWV62H1","citicode":"FUQH","full_description":"GS Japan Equity Partners Portfolio (Class R)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Goldman Sac
+2025-03-21 21:05:19,812 [INFO] Scraped 1540 funds so far...
+2025-03-21 21:05:19,812 [DEBUG] Sleeping for 2.85 seconds
+2025-03-21 21:05:22,663 [INFO] Requesting page 78 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1540, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:05:22,664 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:05:23,092 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1540&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:05:23,110 [INFO] Status Code: 200
+2025-03-21 21:05:23,110 [DEBUG] Response snippet: {"Results":[{"sedol":"BN0W330","citicode":"L0IC","full_description":"Guinness Global Quality Mid Cap Acc (Class F)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Guinness A
+2025-03-21 21:05:24,243 [INFO] Scraped 1560 funds so far...
+2025-03-21 21:05:24,243 [DEBUG] Sleeping for 2.13 seconds
+2025-03-21 21:05:26,375 [INFO] Requesting page 79 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1560, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:05:26,376 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:05:26,908 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1560&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:05:26,923 [INFO] Status Code: 200
+2025-03-21 21:05:26,924 [DEBUG] Response snippet: {"Results":[{"sedol":"BYZ0ZL8","citicode":"E48N","full_description":"HL High Income (Class A)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Hargreaves Lansdown High Income
+2025-03-21 21:05:28,009 [INFO] Scraped 1580 funds so far...
+2025-03-21 21:05:28,009 [DEBUG] Sleeping for 2.26 seconds
+2025-03-21 21:05:30,275 [INFO] Requesting page 80 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1580, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:05:30,276 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:05:30,807 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1580&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:05:30,825 [INFO] Status Code: 200
+2025-03-21 21:05:30,825 [DEBUG] Response snippet: {"Results":[{"sedol":"3203323","citicode":"HN11","full_description":"HL UK Income Fund","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"Hargreaves Lansdown UK Income Fund","a
+2025-03-21 21:05:31,900 [INFO] Scraped 1600 funds so far...
+2025-03-21 21:05:31,900 [DEBUG] Sleeping for 2.11 seconds
+2025-03-21 21:05:34,010 [INFO] Requesting page 81 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1600, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:05:34,011 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:05:34,367 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1600&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:05:34,386 [INFO] Status Code: 200
+2025-03-21 21:05:34,387 [DEBUG] Response snippet: {"Results":[{"sedol":"B90WCY6","citicode":"F4FA","full_description":"HSBC GIF Asia Pacific ex Japan Eq High Div (B)","ismininv_monthly":"25.00","reg_saver":"0","closed_fund":"0","fund_name":"HSBC Asse
+2025-03-21 21:05:35,521 [INFO] Scraped 1620 funds so far...
+2025-03-21 21:05:35,522 [DEBUG] Sleeping for 1.24 seconds
+2025-03-21 21:05:36,764 [INFO] Requesting page 82 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1620, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:05:36,765 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:05:37,483 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1620&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:05:37,543 [INFO] Status Code: 200
+2025-03-21 21:05:37,543 [DEBUG] Response snippet: {"Results":[{"sedol":"B83S0D9","citicode":"F4GQ","full_description":"HSBC GIF Indian Equity (B GBP)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"HSBC Asset Management (Fu
+2025-03-21 21:05:38,641 [INFO] Scraped 1640 funds so far...
+2025-03-21 21:05:38,641 [DEBUG] Sleeping for 2.03 seconds
+2025-03-21 21:05:40,671 [INFO] Requesting page 83 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1640, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:05:40,672 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:05:41,061 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1640&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:05:41,081 [INFO] Status Code: 200
+2025-03-21 21:05:41,081 [DEBUG] Response snippet: {"Results":[{"sedol":"BLKQD05","citicode":"QY3W","full_description":"HSBC Global Sustainable Multi-Asset Cautious (C)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"HSBC As
+2025-03-21 21:05:42,201 [INFO] Scraped 1660 funds so far...
+2025-03-21 21:05:42,201 [DEBUG] Sleeping for 1.58 seconds
+2025-03-21 21:05:43,784 [INFO] Requesting page 84 - URL: https://www.hl.co.uk/ajax/funds/fund-search/search with params: {'investment': '', 'companyid': '', 'sectorid': '', 'wealth': '', 'unitTypePref': '', 'tracker': '', 'payment_frequency': '', 'payment_type': '', 'yield': '', 'standard_ocf': '', 'perf12m': '', 'perf36m': '', 'perf60m': '', 'fund_size': '', 'num_holdings': '', 'start': 1660, 'rpp': 20, 'lo': 0, 'sort': 'fd.full_description', 'sort_dir': 'asc'}
+2025-03-21 21:05:43,784 [DEBUG] Starting new HTTPS connection (1): www.hl.co.uk:443
+2025-03-21 21:05:44,282 [DEBUG] https://www.hl.co.uk:443 "GET /ajax/funds/fund-search/search?investment=&companyid=&sectorid=&wealth=&unitTypePref=&tracker=&payment_frequency=&payment_type=&yield=&standard_ocf=&perf12m=&perf36m=&perf60m=&fund_size=&num_holdings=&start=1660&rpp=20&lo=0&sort=fd.full_description&sort_dir=asc HTTP/11" 200 None
+2025-03-21 21:05:44,293 [INFO] Status Code: 200
+2025-03-21 21:05:44,293 [DEBUG] Response snippet: {"Results":[{"sedol":"B715G37","citicode":"GTNP","full_description":"HSBC UK Growth & Income (Class C)","ismininv_monthly":"25.00","reg_saver":"1","closed_fund":"0","fund_name":"HSBC Asset Management 
